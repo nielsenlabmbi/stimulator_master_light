@@ -1,10 +1,8 @@
 setupID: EP
 slaveIP: 172.30.11.142
-defaultMonitor: Viewsonic
-alternativeMonitor: Acer 
+defaultMonitor: Linear
+alternativeMonitor: Acer
 alternativeMonitor: LG
-alternativeMonitor: Viewpixx
-alternativeMonitor: Linear
 monitorList: monitorList
 analyzerRoot: C:\VStimFiles\AnalyzerFiles
 MstateHistoryFile: C:\stimulator_master\stimulator_history\MstateHistory.mat
