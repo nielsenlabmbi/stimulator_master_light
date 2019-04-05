@@ -7,8 +7,7 @@ alternativeMonitor: Viewpixx
 alternativeMonitor: Linear
 monitorList: monitorList
 analyzerRoot: C:\VStimFiles\AnalyzerFiles
-analyzerRoot: Z:\Ephys\AnalyzerFiles
-MstateHistoryFile: C:\stimulator_master\MstateHistory.mat
-ExperimentMasterFile: C:\stimulator_master\experimentMasterList.mat
+MstateHistoryFile: C:\stimulator_master\stimulator_history\MstateHistory.mat
+ExperimentMasterFile: C:\stimulator_master\stimulator_history\experimentMasterList.mat
 acqDataRoot: C:\data
 useMCDaq: 1
