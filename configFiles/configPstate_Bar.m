@@ -24,8 +24,6 @@ Pstate.param{13} = {'redgun' 'float'   1       0             ''};
 Pstate.param{14} = {'greengun' 'float'   1       0             ''};
 Pstate.param{15} = {'bluegun' 'float'   1       0             ''};
 
-Pstate.param{16} = {'Leye_bit'    'int'   1       0                ''};
-Pstate.param{17} = {'Reye_bit'    'int'   1       0                ''};
 
 
 

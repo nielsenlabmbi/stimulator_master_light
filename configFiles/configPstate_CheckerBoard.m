@@ -25,11 +25,7 @@ Pstate.param{13} = {'offset'       'float'      0       0         'deg'};
 Pstate.param{14} = {'speed'      'float'     0       1                'deg/s'};
 Pstate.param{15} = {'ori'      'float'     0       1                'deg'};
 
-Pstate.param{16} = {'Leye_bit'    'int'   1       0                ''};
-Pstate.param{17} = {'Reye_bit'    'int'   1       0                ''};
-Pstate.param{18} = {'use_ch3'    'int'   0       0                'binary'};
-Pstate.param{19} = {'avg_bit'    'int'   0       0                'binary'};
-Pstate.param{20} = {'background'    'float'   0.5       0                ''};
+Pstate.param{16} = {'background'    'float'   0.5       0                ''};
 
 
 
