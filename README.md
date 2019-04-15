@@ -258,7 +258,7 @@ rseed
 
 ## RDK
 Parameter | Units | Description 
---- | ---
+--- | --- | ---
 sizeDot
 dotType
 ori
@@ -281,6 +281,7 @@ dotCoherence2 | %
 
 ## Warped checkerboard
 Parameter | Units | Description 
+--- | --- | ---
 width | deg
 altazimuth
 tilt_alt | deg
@@ -298,6 +299,7 @@ y_zoom
 
 ## Warped grating
 Parameter | Units | Description 
+--- | --- | ---
 altazimuth
 tilt_alt | deg
 tilt_az | deg
