@@ -122,7 +122,7 @@ The following applies to modules that should be listed in the params window
 The first section lists parameters found in most modules; the following section then list additional module-specific parameters. Note that the screen distance needs to be set correctly in the main window for any of the visual deg values to be correct.
 
 ## General parameters
-Parameter | Description 
+Parameter | Description
 --- | ---
 predelay |
 postdelay |
@@ -132,6 +132,12 @@ y_pos |
 x_size |
 y_size | 
 background | 
+contrast | 
+mask_type | 
+mask_radius |
+redgun | 
+greengun | 
+bluegun | 
 
 ## Bar
 Parameter | Description 
@@ -140,7 +146,166 @@ max_posdelta
 offset
 ori
 speed
-background
-redgun
-greengun
-bluegun
+
+
+## Checkerboard
+Parameter | Description 
+--- | ---
+block_size
+t_period
+max_posdelta
+offset
+speed
+ori
+
+## Image
+Parameter | Description 
+--- | ---
+usenativesize
+keepaspectratio
+croptoscale
+imgpath
+imgbase
+imgnr
+filetype
+color
+scramble
+nrblocks
+
+## Kalatsky
+Parameter | Description 
+--- | ---
+width
+axis
+dir
+speed
+
+## Optic flow
+Parameter | Description 
+--- | ---
+stimRadius
+stimType
+stimDir
+dotDensity
+sizeDots
+speedDots
+dotLifetime
+dotCoherence
+dotType
+
+## Periodic grating
+Parameter | Description 
+--- | ---
+ori
+phase
+s_freq
+s_profile
+s_duty
+t_period
+plaid_bit
+surround_bit
+x_size2
+y_size2
+mask_type2
+mask_radius2
+contrast2
+ori2
+phase2
+s_freq2
+s_profile2
+s_duty2
+t_period2
+tmod_bit
+tmod_max
+tmod_min
+tmod_tperiod
+tmod_tprofile
+
+## Periodic grating (color)
+Parameter | Description 
+--- | ---
+ori
+phase
+s_freq
+s_profile
+s_duty
+t_period
+c1_red
+c1_green
+c1_blue
+c2_red
+c2_green
+c2_blue
+
+## RC Grating (flashed sequence of gratings)
+Parameter | Description 
+--- | ---
+min_ori
+orirange
+n_ori
+min_sf
+max_sf
+n_sfreq
+sf_domain
+n_phase
+h_per
+blankProb
+s_profile
+s_duty
+drift
+t_period
+rseed
+
+## RDK
+Parameter | Units | Description 
+--- | ---
+sizeDot
+dotType
+ori
+dotDensity
+speedDots
+dotLifetime
+dotCoherence
+noNetNoise
+motionopp_bit
+surround_bit
+x_size2
+y_size2
+mask_radius2
+mask_type2
+ori2
+dotDensity2 | dots/(deg^2 s)
+speedDots2 | deg/s
+dotLifetime2 | frames
+dotCoherence2 | %
+
+## Warped checkerboard
+Parameter | Units | Description 
+width | deg
+altazimuth
+tilt_alt | deg
+tilt_az | deg
+dx_perpbis | cm
+dy_perpbis | cm 
+rotated
+ori | deg
+speed | deg/s
+phase | deg
+noise_lifetime | frames
+noise_width | deg
+x_zoom 
+y_zoom 
+
+## Warped grating
+Parameter | Units | Description 
+altazimuth
+tilt_alt | deg
+tilt_az | deg
+dx_perpbis | cm
+dy_perpbis | cm 
+ori | deg
+s_freq | cyc/deg
+s_profile
+s_duty
+t_period | frames
+phase | deg
